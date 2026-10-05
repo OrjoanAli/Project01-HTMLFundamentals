@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>42</title>
+</head>
+<body>
+<form >
+    <label for="name">Full name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required minlength="8"><br>
+
+    <label for="confirm_password">Confirm Password:</label><br>
+    <input type="password" id="confirm_password" name="confirm_password" required minlength="8"><br>
+
+    <label> Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+
+    <label for="Tell_us_more">Tell us more about yourself:</label><br>
+    <textarea id="Tell_us_more" name="Tell_us_more" minlength="40" required></textarea><br>
+
+    <label for="country">Where do you live?</label><br>
+    <select id="country" name="country" required><br>
+        <option value="">Choose your country</option>
+        <option value="jordan">Jordan</option>
+        <option value="egypt">Egypt</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="Syria">Syria</option>
+        <option value="Lebanon">Lebanon</option>
+        <option value="other">Other</option>
+    </select><br>
+
+    <button type="submit" id="submit">Submit</button><br>
+
+    <input type="checkbox" id="checkbox" name="checkbox" required>
+    <label for="checkbox">I agree to the terms and conditions</label>
+</form>
+</body>
+</html>
